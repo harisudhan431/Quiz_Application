@@ -1,0 +1,33 @@
+body {
+    
+    background:  linear-gradient(to right, #e1722e, #d1485b);
+    font-family: "poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+ 
+  
+  .quiz-body button {
+    padding: 0.6rem 1rem;
+    outline: none;
+    background: #111;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 5px;
+    color: #fff;
+    opacity: 0.9;
+    transition: 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  ul{
+      list-style: none;
+  }
+  li{
+      cursor: pointer;
+  }
